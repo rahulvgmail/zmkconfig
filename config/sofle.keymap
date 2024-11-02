@@ -45,7 +45,7 @@
 &kp GRAVE   &kp Q             &kp W               &kp E           &kp R               &kp T                               &kp Y      &kp U            &kp I            &kp O                &kp P                 &kp BSPC
 &kp TAB     &mt LEFT_SHIFT A  &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LEFT_COMMAND F  &kp G                               &kp H      &mt RIGHT_GUI J  &mt RIGHT_ALT K  &mt RIGHT_CONTROL L  &mt RIGHT_SHIFT SEMI  &kp SQT
 &kp LSHFT   &kp Z             &kp X               &kp C           &kp V               &kp B      &kp C_MUTE    &none      &kp N      &kp M            &kp COMMA        &kp DOT              &kp FSLH              &kp RSHFT
-                              &kp LEFT_CONTROL    &kp LALT        &kp LEFT_GUI        &mo LOWER  &kp SPACE     &kp ENTER  &mo RAISE  &kp ESCAPE       &kp LBKT         &kp RBKT
+                              &kp LEFT_CONTROL    &kp LALT        &kp LEFT_GUI        &mo LOWER  &kp SPACE     &kp ENTER  &mo RAISE  &kp RIGHT_GUI    &kp RIGHT_ALT    &kp RBKT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -84,11 +84,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans     &trans    &trans        &trans     &trans   &kp KP_MINUS
-&bt BT_CLR_ALL  &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans                          &kp PG_UP  &trans    &kp UP        &trans     &kp N0   &trans
-&trans          &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                        &kp LEFT   &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp DEL  &kp BSPC
-&trans          &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans    &trans  &trans     &trans    &trans        &trans     &trans   &trans
-                              &trans        &trans        &trans        &trans        &trans    &trans  &trans     &trans    &trans        &trans
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans     &trans      &trans        &trans     &trans   &kp KP_MINUS
+&bt BT_CLR_ALL  &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans                          &kp PG_UP  &trans      &kp UP        &trans     &kp N0   &trans
+&trans          &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                        &kp LEFT   &kp DOWN    &kp UP_ARROW  &kp RIGHT  &kp DEL  &kp BSPC
+&kp F5          &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans    &trans  &trans     &trans      &trans        &trans     &kp F10  &kp F11
+                              &trans        &trans        &trans        &trans        &trans    &trans  &trans     &kp ESCAPE  &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
