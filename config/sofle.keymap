@@ -48,7 +48,9 @@
                     &mt LEFT_CONTROL UNDER  &mt LALT DOUBLE_QUOTES  &mt LEFT_COMMAND BACKSPACE  &mo LOWER  &kp SPACE     &kp ENTER  &mo RAISE  &mt RIGHT_COMMAND ESCAPE  &mt RIGHT_ALT SINGLE_QUOTE  &mt RIGHT_CONTROL MINUS
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>,
+                <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         lower_layer {
